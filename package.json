@@ -1,0 +1,42 @@
+{
+  "name": "soci-start",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.27.1",
+    "@clerk/nextjs": "^6.12.5",
+    "axios": "^1.9.0",
+    "babel-plugin-react-compiler": "^0.0.0-experimental-938cd9a-20240601",
+    "cross-spawn": "^7.0.6",
+    "emoji-picker-react": "^4.12.0",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.510.0",
+    "micromatch": "^4.0.8",
+    "nanoid": "^3.3.8",
+    "next": "^15.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.15.1",
+    "socket.io-client": "^4.8.1",
+    "swr": "^2.3.0",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.16",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.0-rc.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.7.3"
+  }
+}
