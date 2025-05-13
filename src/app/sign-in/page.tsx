@@ -17,10 +17,7 @@ export default function SignInPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus({ loading: true, error: '', success: '' });
-     if (formData.username !== 'admin') {
-    setStatus({ loading: false, error: 'Access denied: Only admin can login.', success: '' });
-    return;
-  }
+     
 
     try {
       const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/auth/login`, {
